@@ -6,6 +6,7 @@
     "lint:eslint": "eslint --fix --ext .js,.svelte .",
     "lint:markdown": "markdownlint -i node_modules **/*.md",
     "lint:prettier": "prettier --write --loglevel warn \"**/*.{js,json,css,svelte,html,md}\"",
+    "lint:stylelint": "stylelint --fix \"src/**/*.{svelte,css}\"",
     "lint": "run-s lint:*",
     "dev": "sapper dev",
     "build": "sapper build --legacy",
@@ -45,6 +46,10 @@
     "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^4.0.4",
     "sapper": "^0.27.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^18.3.0",
     "svelte": "^3.0.0"
   }
 }

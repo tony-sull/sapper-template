@@ -7,11 +7,11 @@
 <style>
   main {
     position: relative;
+    box-sizing: border-box;
     max-width: 56em;
-    background-color: white;
     padding: 2em;
     margin: 0 auto;
-    box-sizing: border-box;
+    background-color: white;
   }
 </style>
 
